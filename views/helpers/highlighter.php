@@ -31,7 +31,6 @@ class HighlighterHelper extends AppHelper {
             echo $this->Html->script('/highlighter/js/shBrushVb.js');
             echo $this->Html->script('/highlighter/js/shBrushXml.js');
             echo $this->Html->scriptBlock("
-                SyntaxHighlighter.config.clipboardSwf = '/highlighter/js/clipboard.swf';
                 SyntaxHighlighter.config.stripBrs = true;
                 SyntaxHighlighter.defaults['wrap-lines'] = true;
                 SyntaxHighlighter.all();
